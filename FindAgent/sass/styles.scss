@@ -1,0 +1,70 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities/general/clearfix";
+
+$highlight-text-color: white;
+$bg-color: #fff;
+
+body {
+  font-size: 62.5%;
+  text-align: center;
+}
+.hero {
+  max-width: 110em;
+  margin: 0 auto;
+  background: url('/images/IMG_0937.png');
+  background-size: cover;
+  color: $highlight-text-color;
+
+  header {
+    img {
+      width: 15em;
+      height: 3em;
+      margin: 1em .5em;
+      float: left;
+    }
+    ul {
+      float: right;
+      li {
+        float: left;
+        margin: 1em .5em;
+        padding: .5em 1em;
+        border: 1px solid transparent;
+        border-radius: 2px;
+        &:last-child {
+          border: 1px solid $highlight-text-color;
+        }
+      }
+    }
+    @include clearfix;
+  }
+  h1 {
+    font-size: 4em;
+    padding: 1em 0 .5em 0;
+  }
+  h2 {
+    font-size: 2em;
+  }
+
+  form {
+    padding: 2em 0 4em 0;
+
+    input[type="text"] {
+      padding: 1em;
+      border: 0;
+      width: 18em;
+      border-radius: 2px 0 0 2px;
+      background-color: $bg-color;
+      opacity: .3;
+    }
+
+    input[type="button"] {
+      color: $highlight-text-color;
+      padding: 1em;
+      border: 0;
+      width: 6em;
+      border-radius: 0 2px 2px 0;
+      background-color: lightgreen;
+    }
+  }
+}

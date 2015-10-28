@@ -1,0 +1,138 @@
+/* line 5, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.2.2/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 8, ../sass/styles.scss */
+body {
+  font-size: 62.5%;
+  text-align: center;
+}
+
+/* line 12, ../sass/styles.scss */
+.hero {
+  max-width: 110em;
+  margin: 0 auto;
+  background: url("/images/IMG_0937.png");
+  background-size: cover;
+  color: white;
+}
+/* line 19, ../sass/styles.scss */
+.hero header {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 20, ../sass/styles.scss */
+.hero header img {
+  width: 15em;
+  height: 3em;
+  margin: 1em .5em;
+  float: left;
+}
+/* line 26, ../sass/styles.scss */
+.hero header ul {
+  float: right;
+}
+/* line 28, ../sass/styles.scss */
+.hero header ul li {
+  float: left;
+  margin: 1em .5em;
+  padding: .5em 1em;
+  border: 1px solid transparent;
+  border-radius: 2px;
+}
+/* line 34, ../sass/styles.scss */
+.hero header ul li:last-child {
+  border: 1px solid white;
+}
+/* line 41, ../sass/styles.scss */
+.hero h1 {
+  font-size: 4em;
+  padding: 1em 0 .5em 0;
+}
+/* line 45, ../sass/styles.scss */
+.hero h2 {
+  font-size: 2em;
+}
+/* line 49, ../sass/styles.scss */
+.hero form {
+  padding: 2em 0 4em 0;
+}
+/* line 52, ../sass/styles.scss */
+.hero form input[type="text"] {
+  padding: 1em;
+  border: 0;
+  width: 18em;
+  border-radius: 2px 0 0 2px;
+  background-color: #fff;
+  opacity: .3;
+}
+/* line 61, ../sass/styles.scss */
+.hero form input[type="button"] {
+  color: white;
+  padding: 1em;
+  border: 0;
+  width: 6em;
+  border-radius: 0 2px 2px 0;
+  background-color: lightgreen;
+}
