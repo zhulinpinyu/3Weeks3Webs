@@ -3,9 +3,13 @@
 @import "compass/utilities/general/clearfix";
 
 $highlight-text-color: white;
-$bg-color: #fff;
+$bg-color: #efefef;
+$text-color: #4f4f4f;
+$secondy-text-color: #d9dada;
+$button-color: #6cdcac;
 
 body {
+  font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
   text-align: center;
 }
@@ -41,9 +45,11 @@ body {
   h1 {
     font-size: 4em;
     padding: 1em 0 .5em 0;
+    font-weight: bold;
   }
   h2 {
     font-size: 2em;
+    color: $secondy-text-color;
   }
 
   form {
@@ -64,7 +70,8 @@ body {
       border: 0;
       width: 6em;
       border-radius: 0 2px 2px 0;
-      background-color: lightgreen;
+      text-transform: uppercase;
+      background-color: $button-color;
     }
   }
 }
