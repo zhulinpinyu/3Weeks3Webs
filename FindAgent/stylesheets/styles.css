@@ -70,7 +70,7 @@ body {
   text-align: center;
 }
 
-/* line 16, ../sass/styles.scss */
+/* line 17, ../sass/styles.scss */
 .hero {
   max-width: 110em;
   margin: 0 auto;
@@ -78,23 +78,23 @@ body {
   background-size: cover;
   color: white;
 }
-/* line 23, ../sass/styles.scss */
+/* line 24, ../sass/styles.scss */
 .hero header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 24, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 .hero header img {
   width: 15em;
   height: 3em;
   margin: 1em .5em;
   float: left;
 }
-/* line 30, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 .hero header ul {
   float: right;
 }
-/* line 32, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 .hero header ul li {
   float: left;
   margin: 1em .5em;
@@ -102,26 +102,26 @@ body {
   border: 1px solid transparent;
   border-radius: 2px;
 }
-/* line 38, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 .hero header ul li:last-child {
   border: 1px solid white;
 }
-/* line 45, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .hero h1 {
   font-size: 4em;
   padding: 1em 0 .5em 0;
   font-weight: bold;
 }
-/* line 50, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 .hero h2 {
   font-size: 2em;
   color: #d9dada;
 }
-/* line 55, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .hero form {
   padding: 2em 0 4em 0;
 }
-/* line 58, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 .hero form input[type="text"] {
   padding: 1em;
   border: 0;
@@ -130,7 +130,7 @@ body {
   background-color: #efefef;
   opacity: .3;
 }
-/* line 67, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 .hero form input[type="button"] {
   color: white;
   padding: 1em;
@@ -139,4 +139,40 @@ body {
   border-radius: 0 2px 2px 0;
   text-transform: uppercase;
   background-color: #6cdcac;
+}
+
+/* line 80, ../sass/styles.scss */
+.numbers {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 84, ../sass/styles.scss */
+.numbers ul {
+  position: relative;
+  top: -1em;
+  background: #efefef;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 89, ../sass/styles.scss */
+.numbers ul li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  border-top: 1px solid #d9dada;
+  border-bottom: 1px solid #d9dada;
+  border-left: 1px solid #d9dada;
+}
+/* line 97, ../sass/styles.scss */
+.numbers ul li:last-child {
+  border-right: 1px solid #d9dada;
+}
+/* line 101, ../sass/styles.scss */
+.numbers ul li h2 {
+  font-size: 2em;
+  padding: 1em 0;
+}
+/* line 106, ../sass/styles.scss */
+.numbers ul li h3 {
+  padding: 0 0 2em 0;
 }
