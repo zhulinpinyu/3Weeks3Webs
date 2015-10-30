@@ -2,7 +2,7 @@
 
 ###Basic Environment
 
-1. gem dependencies
+#####1. gem dependencies
 
 ```ruby
 gem 'compass'
@@ -12,19 +12,19 @@ gem 'guard-compass'
 ```
 Chrome Plugin [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
 
-2. compass create basic_template
+#####2. compass create basic_template
 
-3. Add Guardfile
+#####3. Add Guardfile
 
 ```ruby
 guard init
 ```
 
-4. baisc index.html
+#####4. baisc index.html
 
 ###Demo & source code
 
-1. First example.
+#####1. First example.
 
     [FindAgent Demo](http://zhulinpinyu.github.io/FindAgent/)
 
