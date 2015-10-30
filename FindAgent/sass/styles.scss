@@ -177,6 +177,12 @@ body {
           background-color: $bg-color;
         }
 
+        h3 {
+          font-size: 2em;
+          margin: 1em auto;
+          font-weight: bold;
+        }
+
         i {
           font-size: 3.6em;
         }
@@ -191,6 +197,12 @@ body {
 
         .icon-users {
           color: #4d99cb;
+        }
+
+        p {
+          font-size: 1.5em;
+          margin: auto 1.5em;
+          color: $secondy-text-color;
         }
       }
     }

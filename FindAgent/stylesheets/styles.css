@@ -313,18 +313,30 @@ body {
   background-color: #efefef;
 }
 /* line 180, ../sass/styles.scss */
+.how-it-works ul li .detail h3 {
+  font-size: 2em;
+  margin: 1em auto;
+  font-weight: bold;
+}
+/* line 186, ../sass/styles.scss */
 .how-it-works ul li .detail i {
   font-size: 3.6em;
 }
-/* line 184, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .how-it-works ul li .detail .icon-list {
   color: #eca95a;
 }
-/* line 188, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 .how-it-works ul li .detail .icon-pencil {
   color: #ac9cd2;
 }
-/* line 192, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 .how-it-works ul li .detail .icon-users {
   color: #4d99cb;
+}
+/* line 202, ../sass/styles.scss */
+.how-it-works ul li .detail p {
+  font-size: 1.5em;
+  margin: auto 1.5em;
+  color: #d9dada;
 }
